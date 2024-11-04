@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Macro Options</title>
+  <style>
+    /* Basic styling for improved layout */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h2 {
+      font-size: 1.2em;
+    }
+    .macro-container {
+      padding: 10px 0;
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 10px;
+    }
+    .macro-container:last-child {
+      border-bottom: none;
+    }
+    .macro-field {
+      margin-bottom: 8px;
+    }
+    label {
+      display: inline-block;
+      width: 100px;
+    }
+    input[type="text"] {
+      padding: 4px;
+      margin-right: 5px;
+      width: 60px;
+    }
+    #save {
+      margin-top: 20px;
+      padding: 8px 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    #save:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h2>Set Your Text Macros</h2>
+  
+  <div id="macros">
+    <!-- Macro 1 -->
+    <div class="macro-container">
+      <div class="macro-field">
+        <label>Macro Key 1:</label>
+        <input type="text" id="key1" maxlength="3">
+      </div>
+      <div class="macro-field">
+        <label>Macro Text 1:</label>
+        <input type="text" id="text1">
+      </div>
+    </div>
+
+    <!-- Macro 2 -->
+    <div class="macro-container">
+      <div class="macro-field">
+        <label>Macro Key 2:</label>
+        <input type="text" id="key2" maxlength="3">
+      </div>
+      <div class="macro-field">
+        <label>Macro Text 2:</label>
+        <input type="text" id="text2">
+      </div>
+    </div>
+
+    <!-- Macro 3 -->
+    <div class="macro-container">
+      <div class="macro-field">
+        <label>Macro Key 3:</label>
+        <input type="text" id="key3" maxlength="3">
+      </div>
+      <div class="macro-field">
+        <label>Macro Text 3:</label>
+        <input type="text" id="text3">
+      </div>
+    </div>
+
+    <!-- Macro 4 -->
+    <div class="macro-container">
+      <div class="macro-field">
+        <label>Macro Key 4:</label>
+        <input type="text" id="key4" maxlength="3">
+      </div>
+      <div class="macro-field">
+        <label>Macro Text 4:</label>
+        <input type="text" id="text4">
+      </div>
+    </div>
+
+    <!-- Macro 5 -->
+    <div class="macro-container">
+      <div class="macro-field">
+        <label>Macro Key 5:</label>
+        <input type="text" id="key5" maxlength="3">
+      </div>
+      <div class="macro-field">
+        <label>Macro Text 5:</label>
+        <input type="text" id="text5">
+      </div>
+    </div>
+  </div>
+
+  <button id="save">Save</button>
+  <script src="options.js"></script>
+</body>
+</html>
